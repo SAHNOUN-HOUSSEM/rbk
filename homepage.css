@@ -1,0 +1,161 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.navbar-button {
+  background-color: transparent;
+  color: grey;
+  border: 0;
+  font-weight: bold;
+}
+
+.navbar-button:hover  , .btn-active{
+  background-color: rgba(138, 43, 226, 0.2);
+  color: blueviolet;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
+}
+.preview-button {
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+  font-weight: bold;
+  border: 1px solid blueviolet;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn.navbar-button:hover svg path , .btn-active svg path {
+  fill: blueviolet;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+}
+.card {
+  background-color: #f4f4f4;
+}
+
+.remove-button {
+  border: 0;
+  background: none;
+  color: inherit;
+}
+.btn svg {
+  margin-right: 1px;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.btn.btn-dark {
+  position: absolute;
+  top: 425px;
+  left: 210px;
+    width: 240px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn.btn-danger {
+  position: absolute;
+  top: 490px;
+  left: 210px;
+    width: 240px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn.btn-info {
+  position: absolute;
+  top: 615px;
+  left: 210px;
+    width: 240px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn.btn-primary {
+  position: absolute;
+  top: 550px;
+  left: 210px;
+  width: 240px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn.btn-success {
+  position: absolute;
+  top: 680px;
+  left: 210px;
+  width: 240px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.line {
+  border-bottom: 1px solid rgb(134, 134, 134);
+  width: 100%;
+  box-shadow: 1px 1px 2px 1px rgb(210, 210, 210);
+}
+.btn.btn-block {
+  border: 2px solid blueviolet;
+  color: blueviolet;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+.purple-button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  /* position: absolute; */
+  /* right: 60px; */
+  border-radius: 10px;
+  width: 90px;
+}
+
+
+#carreau {
+  width: 300px;
+  height: 200px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+#cameraIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#changerPhotoLabel {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}

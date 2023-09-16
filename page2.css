@@ -1,0 +1,132 @@
+.navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top:30px;
+  left: 1%;
+  border-radius: 15px;
+  max-width:  90%;
+}
+
+.top-left-button {
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+  font-weight: bold;
+  border: 1px solid blueviolet;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.top-right-button {
+  background-color: blueviolet;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.cadre-mauve {
+  background-color: rgba(60, 0, 213, 0.716);
+  height: 45vh; /* 25% de la hauteur de la fenêtre */
+  background-color: mauve; /* Couleur mauve */
+  border-radius: 0 0 50px 50px; /* Coins du bas arrondis */
+}
+.rectangle {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 70px;
+  border: 5px solid blueviolet;
+}
+.text-line {
+  text-align: center;
+  font-size: 40px; /* Larger font size for the first line */
+  font-weight: bold; /* Bold font for the first line */
+  line-height: 1.8;
+  color: rgb(0, 0, 0); /* Gray color for the first line */
+}
+
+.text-line + .text-line {
+  text-align: center;
+  font-size: 15px; /* Font size for the second line */
+  font-weight: normal; /* Reset font weight for the second line */
+  color: rgb(
+    148,
+    148,
+    148
+  ); /* Adjust text color for the second line as needed */
+}
+.btn.btn-dark {
+  position: absolute;
+  top: 385px;
+  left: 90px;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn.btn-danger {
+  position: absolute;
+  top: 445px;
+  left: 90px;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn.btn-primary {
+  position: absolute;
+  top: 505px;
+  left: 90px;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn svg {
+  margin-right: 1px;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.profile-container {
+  position: absolute;
+  top: 250px;
+  left: 550px;
+  width: fit-content;
+}
+
+@media (max-width: 1330px) {
+  .profile-container {
+    top: 280px;
+    left: 270px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-container {
+    top: 280px;
+    left: 70px;
+  }
+}
